@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_volver = findViewById(R.id.btn_volver);
 
         btn_volver.setOnClickListener(new View.OnClickListener() {
             @Override

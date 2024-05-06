@@ -13,10 +13,16 @@
         android:theme="@style/Theme.Lig"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".inicioapp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
