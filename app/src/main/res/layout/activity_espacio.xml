@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/btn_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#FFFFFF"
@@ -128,7 +128,7 @@
         app:layout_constraintVertical_bias="0.764" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_sala"
         android:layout_width="111dp"
         android:layout_height="31dp"
         android:backgroundTint="#9AADF1"
@@ -143,7 +143,7 @@
         app:layout_constraintVertical_bias="0.454" />
 
     <Button
-        android:id="@+id/buttonn"
+        android:id="@+id/btn_baño"
         android:layout_width="111dp"
         android:layout_height="31dp"
         android:backgroundTint="#9AADF1"
@@ -158,11 +158,11 @@
         app:layout_constraintVertical_bias="0.818" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_habitacion"
         android:layout_width="111dp"
         android:layout_height="31dp"
         android:backgroundTint="#9AADF1"
-        android:text="Categorías sala"
+        android:text="Categorías"
         android:textSize="8sp"
         app:iconTint="#9AADF1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -173,7 +173,7 @@
         app:layout_constraintVertical_bias="0.818" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn_cocina"
         android:layout_width="111dp"
         android:layout_height="31dp"
         android:backgroundTint="#9AADF1"
@@ -249,7 +249,7 @@
         app:layout_constraintVertical_bias="0.988" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imgbtn_servicios"
         android:layout_width="53dp"
         android:layout_height="49dp"
         android:backgroundTint="#FFFFFF"

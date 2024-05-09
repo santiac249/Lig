@@ -23,7 +23,7 @@
         tools:layout_editor_absoluteY="602dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_registro"
         android:layout_width="275dp"
         android:layout_height="46dp"
         android:text="Registrarse"
