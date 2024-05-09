@@ -123,6 +123,7 @@
             android:id="@+id/btn_registrar"
             android:layout_width="276dp"
             android:layout_height="49dp"
+            android:backgroundTint="#9AADF1"
             android:text="Registrarse"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.496"

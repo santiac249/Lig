@@ -9,7 +9,7 @@
     tools:context=".inicioapp" >
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_register"
         android:layout_width="275dp"
         android:layout_height="46dp"
         android:backgroundTint="#9AADF1"

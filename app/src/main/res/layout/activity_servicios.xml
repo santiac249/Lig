@@ -13,6 +13,7 @@
         android:layout_width="329dp"
         android:layout_height="54dp"
         android:text="Servicios pendientes"
+        android:textColor="#FF303B63"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -291,7 +292,7 @@
         android:layout_height="wrap_content"
         android:text="Categorias"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="111dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
