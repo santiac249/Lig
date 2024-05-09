@@ -35,10 +35,10 @@ public class inicioapp extends AppCompatActivity {
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Crea un nuevo Intent que apunte a la actividad Login
+                // Crea un nuevo Intent que apunte a la actividad Register
                 Intent intent = new Intent(inicioapp.this, Registro.class);
 
-                // Inicia la actividad Login
+                // Inicia la actividad Registro de usuario
                 startActivity(intent);
             }
         });
