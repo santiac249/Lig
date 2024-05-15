@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#FFFFFF"
-    tools:context=".Espacio">
+    tools:context=".Espacio"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-16dp">
 
     <TextView
         android:id="@+id/textView4"
@@ -25,7 +27,7 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="162dp"
-        android:layout_height="237dp"
+        android:layout_height="290dp"
         android:src="@drawable/salaesp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
@@ -36,8 +38,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="177dp"
-        android:layout_height="241dp"
+        android:layout_width="162dp"
+        android:layout_height="290dp"
         android:backgroundTint="#9AADF1"
         android:src="@drawable/cocinaesp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,8 +51,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="166dp"
-        android:layout_height="237dp"
+        android:layout_width="162dp"
+        android:layout_height="290dp"
         android:src="@drawable/ba_oesp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
@@ -61,8 +63,8 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="168dp"
-        android:layout_height="236dp"
+        android:layout_width="162dp"
+        android:layout_height="290dp"
         android:src="@drawable/habitacionesp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.884"
@@ -111,21 +113,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.764" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Habitación"
-        android:textColor="#FF303B63"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.764" />
+        app:layout_constraintVertical_bias="0.741" />
 
     <Button
         android:id="@+id/btn_sala"
@@ -155,7 +143,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.795" />
 
     <Button
         android:id="@+id/btn_habitacion"
@@ -170,7 +158,33 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.795" />
+
+    <CheckBox
+        android:id="@+id/checkBoxx"
+        android:layout_width="28dp"
+        android:layout_height="29dp"
+        android:buttonTint="#DC303B63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habitación"
+        android:textColor="#FF303B63"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
 
     <Button
         android:id="@+id/btn_cocina"
@@ -209,7 +223,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintVertical_bias="0.837" />
 
     <CheckBox
         android:id="@+id/checkBox1"
@@ -221,18 +235,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBoxx"
-        android:layout_width="28dp"
-        android:layout_height="29dp"
-        android:buttonTint="#DC303B63"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
 
     <ImageButton
         android:id="@+id/imageButton"
