@@ -20,6 +20,7 @@ public class Espacio extends AppCompatActivity {
     private Button btn_cocina;
 
     private ImageButton imgbtn_servicios;
+    private ImageButton imgbtn_creditos;
 
 
     @Override
@@ -32,6 +33,7 @@ public class Espacio extends AppCompatActivity {
         btn_cocina = findViewById(R.id.btn_cocina);
         btn_habitacion = findViewById(R.id.btn_habitacion);
         imgbtn_servicios = findViewById(R.id.imgbtn_servicios);
+        imgbtn_creditos = findViewById(R.id.imgbtn_creditos);
 
 
 
@@ -54,6 +56,16 @@ public class Espacio extends AppCompatActivity {
 
                 // Inicia la actividad Registro de usuario
                 startActivity(intent);
+            }
+        });
+        imgbtn_creditos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crea un nuevo Intent que apunte a la actividad Creditos
+                Intent intent = new Intent(Espacio.this, Creditos.class);
+                // Inicia la actividad Registro de usuario
+                startActivity(intent);
+
             }
         });
 

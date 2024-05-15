@@ -132,34 +132,4 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.892" />
 
-        <ImageButton
-            android:id="@+id/btn_home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_home_black_24dp"
-            tools:layout_editor_absoluteX="114dp"
-            tools:layout_editor_absoluteY="684dp" />
-
-    <ImageButton
-        android:id="@+id/btn_clip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/clipboard"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="684dp" />
-
-    <ImageButton
-        android:id="@+id/btn_fam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/audience__1_"
-        tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="684dp" /><![CDATA[
-
-
-
-        />
-
-
-]]>
 </androidx.constraintlayout.widget.ConstraintLayout>
